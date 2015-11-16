@@ -5,7 +5,7 @@ namespace shop;
 class Settings {
 
     public $SHOP_PASSWORD = "123456";
-    public $SECURITY_TYPE;
+    public $SECURITY_TYPE = "MD5"; /* замените на PKCS7, если используете эту схему */
     public $LOG_FILE;
     public $SHOP_ID = 151;
     public $CURRENCY = 10643;
